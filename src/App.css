@@ -1,0 +1,47 @@
+@import '~antd/dist/antd.css';
+@import '~bootstrap-4-grid/css/grid.min.css';
+@import '~draft-js/dist/Draft.css';
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.icon-list__action{
+  cursor: pointer;
+  margin-left: 60px;
+}
+.editor-form{
+  margin-top: 10%;
+}
+.icon {
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 18px;
+}
